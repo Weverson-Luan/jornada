@@ -1,0 +1,1 @@
+Object.defineProperty(exports,"__esModule",{value:true});exports.configAxios=void 0;var configAxios={baseURL:'http://grupofigueiredo.com.br:1111/jornada_mobile'};exports.configAxios=configAxios;

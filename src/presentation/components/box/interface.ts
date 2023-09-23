@@ -32,20 +32,18 @@ export interface BoxProps
     PositionProps<typeof theme>,
     ColorProps<typeof theme>,
     BackgroundColorProps<typeof theme>,
-    BorderProps<typeof theme>,
-    BorderWidthProps<typeof theme>,
     SizeProps<typeof theme>,
     WidthProps<typeof theme>,
     HeightProps<typeof theme>,
     MinHeightProps<typeof theme>,
     MinWidthProps<typeof theme>,
     ShadowProps<typeof theme>,
-    BorderRadiusProps<typeof theme>,
     DisplayProps<typeof theme> {
   children?: React.ReactNode;
   backgroundColor?: string;
   borderRadius?: number;
   borderColor?: string;
+  borderWidth?: number |any; 
 
   /**
    * A propriedade CSS define como os flex items são colocados no flex container definindo o eixo principal e a direção (normal ou invertida).flex-direction.
